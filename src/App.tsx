@@ -505,17 +505,7 @@ export default function App() {
               <Compass className="h-4 w-4" />
               Ver Prototipo App
             </button>
-            <button
-              onClick={() => setCurrentView('strategy')}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full font-sans font-bold text-xs border transition-all cursor-pointer ${
-                currentView === 'strategy'
-                  ? 'bg-[#E89B6A] text-white border-[#E89B6A] shadow-sm'
-                  : 'bg-white text-[#E89B6A] border-[#E5E1D8] hover:bg-[#F9F7F2]'
-              }`}
-            >
-              <BookOpen className="h-4 w-4" />
-              Estrategia & Scrum Hub (17 Entregables)
-            </button>
+            
           </div>
         </div>
       </header>
