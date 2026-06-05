@@ -1482,7 +1482,7 @@ export default function App() {
               <span className="font-serif italic font-bold text-base">NutriKids Inc.</span>
             </div>
             <p className="text-[#F9F7F2]/80 leading-relaxed">
-              Trabajo final estratégico de startup construida meticulosamente para mejorar el bienestar infantil, consolidando raciones de alimentos, dietas escolares andinas y anemia preventivo-activa en el Perú.
+              Trabajo final estratégico de startup construida meticulosamente para mejorar el bienestar infantil, consolidando raciones de alimentos, dietas escolares y anemia preventivo-activa en Lima-Peru.
             </p>
           </div>
 
