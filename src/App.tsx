@@ -1486,25 +1486,24 @@ export default function App() {
             </p>
           </div>
 
-          <div className="space-y-2">
-            <span className="font-sans font-extrabold text-xs tracking-wider uppercase block border-b border-[#F9F7F2]/10 pb-1 text-[#FFD460]">
-              Principios de Ingeniería
-            </span>
-            <ul className="space-y-1 text-[#F9F7F2]/80">
-              <li>• Clean Architecture & SOLID</li>
-              <li>• Micro-optimizaciones responsivas</li>
-              <li>• Bento Grid UI Design System</li>
-              <li>• Estándares HIPAA & Cuidado Pediátrico</li>
-            </ul>
-          </div>
+          
 
           <div className="space-y-2">
             <span className="font-sans font-extrabold text-xs tracking-wider uppercase block border-b border-[#F9F7F2]/10 pb-1 text-[#FFD460]">
               Integrantes Sandbox
             </span>
             <p className="text-[#F9F7F2]/80 leading-relaxed">
-              Desplegado en Google Cloud Run y alojado en AI Studio Container Core.<br />
-              <b>Localizado:</b> Lima, Surco, Perú
+              Desplegado para el curso Desing Thinking 2610-3937.<br />
+              <b>Localizado:</b> Lima, Perú
+              <li>
+                Emanuel Checalla 
+                Katty Pariacuri
+                Cesar Arellano
+                Fabrizzio Tipto 
+                Daniela Ramos 
+                Geraldine Huidobro 
+                Maryorit Espinoza 
+              </li>
             </p>
           </div>
         </div>
