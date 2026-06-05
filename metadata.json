@@ -1,0 +1,6 @@
+{
+  "name": "NutriKids",
+  "description": "Plataforma para planificar la alimentación saludable de niños entre 1 y 6 años en el mercado peruano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
