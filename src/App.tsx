@@ -55,8 +55,8 @@ export default function App() {
         id: 'sub_1',
         userEmail: 'mama.thiago@gmail.com',
         userName: 'Camila Espinoza',
-        name: 'Crema andina de quinua con poro y leche',
-        description: 'Una crema cremosa y muy suave que le encanta a Thiago y tiene todos los nutrientes del grano andino libre de gluten.',
+        name: 'Crema  de quinua con poro y leche',
+        description: 'Una crema cremosa y muy suave que le encanta a Thiago y tiene todos los nutrientes del grano  libre de gluten.',
         category: 'Cena',
         prepTime: '15 min',
         difficulty: 'Fácil',
@@ -958,7 +958,7 @@ export default function App() {
                 </div>
 
                 <p className="text-[11px] text-[#7C776D] font-sans leading-relaxed">
-                  ¿Tienes una receta andina favorita de tu familia? Envíala para que el nutricionista principal la evalúe administrativamente y la publique.
+                  ¿Tienes una receta  favorita de tu familia? Envíala para que el nutricionista principal la evalúe administrativamente y la publique.
                 </p>
 
                 {showCommunityForm ? (

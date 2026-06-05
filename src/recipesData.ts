@@ -80,7 +80,7 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
   {
     id: 'rec_4',
     name: 'Chaufa de Quinua Nutritivo',
-    description: 'Reemplazamos el arroz por la quinua, el superalimento de los Andes. Aporta todos los aminoácidos esenciales que requiere el crecimiento infantil.',
+    description: 'Reemplazamos el arroz por la quinua, el superalimento de los Peru. Aporta todos los aminoácidos esenciales que requiere el crecimiento infantil.',
     category: 'Almuerzo',
     prepTime: '25 min',
     difficulty: 'Medio',
@@ -190,11 +190,11 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
       { name: 'Espinaca bien picada', quantity: 30, unit: 'g' },
       { name: 'Huevo entero batido', quantity: 1, unit: 'unid' },
       { name: 'Harina de avena o integral', quantity: 20, unit: 'g' },
-      { name: 'Queso fresco andino rallado', quantity: 20, unit: 'g' },
+      { name: 'Queso fresco  rallado', quantity: 20, unit: 'g' },
       { name: 'Aceite de oliva', quantity: 5, unit: 'ml' }
     ],
     steps: [
-      'En un tazón, batir el huevo y mezclar con la zanahoria rallada, las espinacas picadas y el queso fresco andino.',
+      'En un tazón, batir el huevo y mezclar con la zanahoria rallada, las espinacas picadas y el queso fresco .',
       'Incorporar la harina de avena de a pocos hasta tener una masa semi-líquida consistente.',
       'Calentar una sartén antiadherente pintada con unas gotas de aceite de oliva.',
       'Colocar cucharadas de la masa formando círculos. Cocinar a fuego medio-bajo 3 minutos por lado hasta que estén dorados.',
@@ -230,7 +230,7 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
   },
   {
     id: 'rec_10',
-    name: 'Mazamorra Andina de Kiwicha y Piña',
+    name: 'Mazamorra  de Kiwicha y Piña',
     description: 'Un postre o desayuno dulce rico en lisina, el aminoácido del crecimiento óseo y muscular en niños pequeños.',
     category: 'Snacks',
     prepTime: '20 min',
@@ -256,14 +256,14 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
   {
     id: 'rec_11',
     name: 'Croquetas Horneadas de Quinua y Queso',
-    description: 'Deliciosas croquetas andinas muy ricas en calcio, perfectas para la lonchera o merienda de la tarde sin frituras.',
+    description: 'Deliciosas croquetas s muy ricas en calcio, perfectas para la lonchera o merienda de la tarde sin frituras.',
     category: 'Snacks',
     prepTime: '25 min',
     difficulty: 'Medio',
     ingredients: [
       { name: 'Quinua cocida fría', quantity: 150, unit: 'g' },
       { name: 'Huevo batido', quantity: 1, unit: 'unid' },
-      { name: 'Queso andino semicurado rallado', quantity: 40, unit: 'g' },
+      { name: 'Queso  semicurado rallado', quantity: 40, unit: 'g' },
       { name: 'Harina de yuca o maíz', quantity: 10, unit: 'g' },
       { name: 'Aceite de oliva para pintar', quantity: 2, unit: 'ml' }
     ],
@@ -314,13 +314,13 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
       { name: 'Zapallo macre', quantity: 200, unit: 'g' },
       { name: 'Zanahoria', quantity: 1, unit: 'unid' },
       { name: 'Papa blanca pelada', quantity: 0.5, unit: 'unid' },
-      { name: 'Queso fresco de cabra o andino tierno', quantity: 20, unit: 'g' },
+      { name: 'Queso fresco de cabra o  tierno', quantity: 20, unit: 'g' },
       { name: 'Aceite de oliva extra virgen', quantity: 5, unit: 'ml' }
     ],
     steps: [
       'Sancochar el zapallo, la zanahoria y la media papa blanca pelada en poca agua con una pizca de sal.',
       'Una vez cocidas las verduras, escurrir pero guardar un poco del agua de cocción.',
-      'Llevar a la licuadora con el queso fresco andino y licuar agregando un poquito de agua según consistencia deseada.',
+      'Llevar a la licuadora con el queso fresco  y licuar agregando un poquito de agua según consistencia deseada.',
       'Servir en plato hondo de bebé y decorarlo con un hilo delgado de aceite de oliva muy sano.'
     ],
     nutrition: { calories: 110, protein: '3.6g', carbs: '16g', fat: '4.1g', iron: '1.1mg' },
@@ -352,8 +352,8 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
   },
   {
     id: 'rec_15',
-    name: 'Panecillos de Camote Amarillo Andino',
-    description: 'Bollitos dulces horneados con base de camote andino con altos carotenos, ideales para el desayuno del fin de semana.',
+    name: 'Panecillos de Camote Amarillo ',
+    description: 'Bollitos dulces horneados con base de camote  con altos carotenos, ideales para el desayuno del fin de semana.',
     category: 'Desayuno',
     prepTime: '25 min',
     difficulty: 'Medio',
@@ -426,7 +426,7 @@ export const COMPREHENSIVE_RECIPES: Receta[] = [
   {
     id: 'rec_18',
     name: 'Flan Cremoso de Tarwi o Choloque',
-    description: 'El tarwi o lupino andino es la legumbre con mayor densidad calórica proteíca del continente. Apto como postre súper nutritivo y suave.',
+    description: 'El tarwi o lupino  es la legumbre con mayor densidad calórica proteíca del continente. Apto como postre súper nutritivo y suave.',
     category: 'Snacks',
     prepTime: '25 min',
     difficulty: 'Difícil',

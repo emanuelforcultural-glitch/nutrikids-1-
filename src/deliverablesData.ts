@@ -169,7 +169,7 @@ export const CASOS_USO: UseCase[] = [
     precondition: 'Usuario con cuenta de correo autenticada.',
     mainFlow: [
       'El usuario navega a "Comunidad NutriKids" y hace clic en "Sugerir Receta".',
-      'El sistema despliega una pasarela para rellenar los datos de la receta andina/peruana: Nombre, categoría, ingredientes, preparación paso a paso.',
+      'El sistema despliega una pasarela para rellenar los datos de la receta /peruana: Nombre, categoría, ingredientes, preparación paso a paso.',
       'El usuario envía la receta.',
       'El sistema registra la propuesta con estado "Pendiente" y notifica al usuario que entrará en revisión por el nutricionista de la plataforma.'
     ],
@@ -446,7 +446,7 @@ export const INSTANT_API_DESIGN = [
   { method: 'GET', path: '/api/recipes', request: 'Query params: category, search_query', response: '[{ id, name, category, prepTime, diff, ingredients }]', desc: 'Retorna las 18 recetas verificadas de la plataforma.' },
   { method: 'POST', path: '/api/children', request: '{ name, birthdate, weight, height, gender, allergies }', response: '{ child: { id, name, age } }', desc: 'Registar un niño (Sujeto a límite de validación de Plan Gratuito).' },
   { method: 'PUT', path: '/api/menu', request: '{ weekday: "Lunes", block: "Almuerzo", recipeId: "rec_1" }', response: '{ success: true, updatedMenu }', desc: 'Guarda o actualiza el recetario elegido para un bloque semanal.' },
-  { method: 'POST', path: '/api/community/submit', request: '{ name, description, category, prepTime, ingredients_raw, steps_raw }', response: '{ submission: { id, status: "pending" } }', desc: 'Someter receta casera andina para revisión administrativa.' },
+  { method: 'POST', path: '/api/community/submit', request: '{ name, description, category, prepTime, ingredients_raw, steps_raw }', response: '{ submission: { id, status: "pending" } }', desc: 'Someter receta casera  para revisión administrativa.' },
   { method: 'GET', path: '/api/admin/submissions', request: 'Headers: Admin authorization', response: '[{ id, name, status: "pending" }]', desc: 'Permite a los administradores listar las recetas pendientes.' },
   { method: 'PUT', path: '/api/admin/submissions/:id/approve', request: '{ approve: boolean, rejectionReason?: string }', response: '{ success: true, newStatus: "approved"|"rejected" }', desc: 'Aprueba o rechaza una propuesta culinaria de la comunidad.' }
 ];

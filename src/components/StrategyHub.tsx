@@ -425,7 +425,7 @@ export default function StrategyHub() {
                   <div className="space-y-3 text-xs">
                     <div className="bg-white p-3 rounded-xl border border-orange-100">
                       <b className="text-brand-orange block mb-1">Productos y Servicios</b>
-                      <p className="text-gray-600">Aplicación web móvil offline-first con recetario criollo pediátrico verificado por nutricionistas andinos, y planificador interactivo.</p>
+                      <p className="text-gray-600">Aplicación web móvil offline-first con recetario criollo pediátrico verificado por nutricionistas s, y planificador interactivo.</p>
                     </div>
                     <div className="bg-white p-3 rounded-xl border border-orange-100">
                       <b className="text-brand-orange block mb-1">Aliviadores de Frustración (Pain Relievers)</b>
@@ -689,7 +689,7 @@ export default function StrategyHub() {
                       <td className="px-4 py-3 font-semibold text-brand-teal">menus_semanales</td>
                       <td className="px-4 py-3">desayuno_receta_id ...</td>
                       <td className="px-4 py-3">recetas(id)</td>
-                      <td className="px-4 py-3">Calendario por días. Referencia directa a receta andina.</td>
+                      <td className="px-4 py-3">Calendario por días. Referencia directa a receta .</td>
                     </tr>
                     <tr>
                       <td className="px-4 py-3 font-semibold text-brand-teal">recetas_comunidad</td>
