@@ -1496,13 +1496,14 @@ export default function App() {
               Desplegado para el curso Desing Thinking 2610-3937.<br />
               <b>Localizado:</b> Lima, Perú
               <li>
-                Emanuel Checalla 
+                
                 Katty Pariacuri
                 Cesar Arellano
                 Fabrizzio Tipto 
                 Daniela Ramos 
                 Geraldine Huidobro 
                 Maryorit Espinoza 
+                Emanuel Checalla 
               </li>
             </p>
           </div>
